@@ -1,10 +1,12 @@
 export type Data = {
   cvLanguage: "spanish" | "english";
   name: string;
-  location: string;
+  location?: string;
   phone: string;
   email: string;
   linkedin: string;
+  github?: string;
+  website?: string;
   summary: string;
   experience: Item[];
   education: Item[];
@@ -32,12 +34,13 @@ export type ResumeSections = Array<Item> | Skills;
 export const data: Data = {
   cvLanguage: "spanish",
   name: "Fernando Jiménez",
-  location: "Los Ángeles, Chile",
-  phone: "+56 9 5822 0368",
+  phone: "+56958220368",
   email: "fgjv06@gmail.com",
   linkedin: "linkedin.com/in/fernandogbz",
+  github: "fernandogbz",
+  website: "portfolio-fernandogbz.pages.dev",
   summary:
-    "24 años, actualmente estudiando desarrollo web hace más de dos años, comprometido con la mejora en todos los aspectos de mi vida, proactivo, responsable, amigable, excelente manejo de las relaciones interpersonales, mostrando la capacidad para generar relaciones de confianza, amante de los retos y dispuesto a aportar ideas / soluciones para el desarrollo de tu proyecto.",
+    "25 años, programador Fullstack hace más de 3 años, comprometido con la mejora en todos los aspectos de mi vida, proactivo, responsable, amigable, excelente manejo de las relaciones interpersonales, amante de los retos y dispuesto a aportar ideas / soluciones para el desarrollo de tu proyecto. Además soy filmmaker, fotógrafo y diseñador, esta faceta creativa complementa mi enfoque analítico y técnico en el desarrollo y diseño web, permitiéndome crear soluciones innovadoras y visualmente atractivas.",
   experience: [
     {
       id: "experience-3",
@@ -55,7 +58,7 @@ export const data: Data = {
         "Realicé proyectos prácticos aplicando técnicas avanzadas de programación y resolviendo desafíos de complejidad creciente.",
         "Enfrenté tareas que requieren la identificación de requisitos y la satisfacción de necesidades del usuario, aplicando un enfoque en el análisis ágil.",
         "Consolidé competencias transversales como el trabajo en equipo, la identificación y resolución de problemas, así como la comunicación efectiva, mejorando la colaboración en proyectos y la interacción con otros profesionales y clientes en diferentes contextos.",
-        "Me preparé en temas de emprendimiento, innovación y gestión de proyectos,enfocandome en el aprendizaje y la actualización continua de mis conocimientos para responder a la evolución constante de la industria, permitiendome adaptarme al entorno laboral y contribuir con soluciones tecnológicas en el mercado.",
+        "Me preparé en temas de emprendimiento, innovación y gestión de proyectos, enfocándome en el aprendizaje continuo para responder a la evolución constante de la industria, permitiéndome adaptarme al entorno laboral y contribuir con soluciones tecnológicas en el mercado.",
       ],
     },
     {
@@ -85,7 +88,6 @@ export const data: Data = {
         "Adquirí nociones de fundamentos de programación aplicados de forma práctica.",
         "Impulsé el desarrollo de mi pensamiento lógico, permitiendome estructurar algoritmos en pseudocódigo, aplicando conceptos clave de programación como variables, tipos de datos, condicionales, bucles y funciones para resolver problemas secuencialmente.",
         "Aprendí a utilizar herramientas de desarrollo y entornos de programación, para escribir y ejecutar código, depurar errores y optimizar la eficiencia del código.",
-        "Participé activamente en clases en vivo, siguiendo lecciones en tiempo real.",
         "Colaboré en grupos, potenciando la resolución de problemas en conjunto y el aprendizaje en equipo.",
       ],
     },
@@ -121,11 +123,22 @@ export const data: Data = {
       "Bootstrap",
       "JavaScript (ES6+)",
       "React",
+      "Next.js",
+      "Three.js",
+      "Redux",
+      "Shadcn/UI",
+      "Framer Motion",
+      "Zod",
+      "React Hook Form",
+      "Zustand",
+      "TypeScript",
       "Node.js",
       "Express",
       "Java",
       "Spring Boot",
-      "Python (Tkinter)",
+      "Python",
+      "Django",
+      "NoSQL (MongoDB)",
       "SQL (MySQL, Oracle, SQL Server)",
       "Diseño (UI/UX)",
       "Metodologías Ágiles (Scrum, Kanban)",
@@ -138,19 +151,38 @@ export const data: Data = {
       "Adaptabilidad",
       "Proactividad",
       "Responsabilidad",
+      "Mejora continua",
+      "Pensamiento crítico",
     ],
     tools: [
       "VS Code",
       "Git",
       "GitHub",
+      "Postman",
+      "XAMPP",
+      "MySQL Workbench",
+      "MongoDB Compass",
+      "Docker",
+      "VirtualBox",
+      "VMware",
       "Cloudflare",
+      "Firebase",
+      "Supabase",
       "Netlify",
+      "Vercel",
+      "Heroku",
+      "Railway",
+      "Twilio",
+      "Trello",
+      "Appwrite",
       "WordPress",
       "Figma",
+      "Canva",
+      "Adobe XD",
       "Photoshop",
       "Illustrator",
       "Premiere Pro",
-      "DaVinci Resolve",
+      "After Effects",
     ],
   },
 };
