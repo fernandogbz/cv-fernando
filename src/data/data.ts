@@ -109,7 +109,7 @@ export const data: Data = {
     {
       id: "education-1",
       name: "Instituto Nacional de Capacitación Profesional de Chile (Inacap)",
-      title: "Analista Programador",
+      title: "Ingeniería en Informática",
       location: "Los Ángeles, Chile",
       startDate: "Marzo 2024",
       endDate: "Actualidad",
