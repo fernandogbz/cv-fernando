@@ -142,6 +142,9 @@ export const data: Data = {
       "SQL (MySQL, Oracle, SQL Server)",
       "Diseño (UI/UX)",
       "Metodologías Ágiles (Scrum, Kanban)",
+      "Prompt Engineering",
+      "MCP (Model Context Protocol)",
+      "Automatización de Workflows",
     ],
     softs: [
       "Inglés (C2 - Avanzado)",
@@ -172,6 +175,8 @@ export const data: Data = {
       "Vercel",
       "Heroku",
       "Railway",
+      "n8n",
+      "Make",
       "Twilio",
       "Trello",
       "Appwrite",
