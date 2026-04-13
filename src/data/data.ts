@@ -40,7 +40,7 @@ export const data: Data = {
   github: "fernandogbz",
   website: "portfolio-fernandogbz.pages.dev",
   summary:
-    "25 años, programador Fullstack hace más de 3 años, comprometido con la mejora en todos los aspectos de mi vida, proactivo, responsable, amigable, excelente manejo de las relaciones interpersonales, amante de los retos y dispuesto a aportar ideas / soluciones para el desarrollo de tu proyecto. Además soy filmmaker, fotógrafo y diseñador, esta faceta creativa complementa mi enfoque analítico y técnico en el desarrollo y diseño web, permitiéndome crear soluciones innovadoras y visualmente atractivas.",
+    "25 años, programador Fullstack hace más de 4 años, comprometido con la mejora en todos los aspectos de mi vida, proactivo, responsable, amigable, excelente manejo de las relaciones interpersonales, amante de los retos y dispuesto a aportar ideas / soluciones para el desarrollo de tu proyecto. Además soy filmmaker, fotógrafo y diseñador, esta faceta creativa complementa mi enfoque analítico y técnico en el desarrollo y diseño web, permitiéndome crear soluciones innovadoras y visualmente atractivas.",
   experience: [
     {
       id: "experience-3",
