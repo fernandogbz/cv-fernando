@@ -18,7 +18,7 @@ function App() {
     education,
   } = data;
   return (
-    <main className="w-[81.6rem] h-[105.462rem] mx-auto p-6 bg-white">
+    <main className="w-[81.6rem] h-[105.462rem] mx-auto pt-0 pb-6 px-6 bg-white">
       <h1 className="text-4xl font-bold text-center mb-1">{name}</h1>
       <p className="text-lg font-semibold text-theme mb-4 flex items-center justify-center gap-3">
         {location && (
